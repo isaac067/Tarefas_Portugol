@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real pi = 3.14
+		real raio
+		real calculo1
+
+		escreva("Diga o raio de um circulo:")
+		leia(raio)
+
+		calculo1 = pi * (raio * raio)
+
+		escreva("A area do circulo é: ", calculo1)
+	}
+}
